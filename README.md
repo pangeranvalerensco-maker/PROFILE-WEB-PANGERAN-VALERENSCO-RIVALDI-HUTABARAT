@@ -1,59 +1,68 @@
-🌐 Profile Website - Pangeran Valerensco Rivaldi Hutabarat
-<p align="center"> <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"> </p><div align="center">
-https://img.shields.io/badge/Laravel-11.x-red.svg
-https://img.shields.io/badge/Bootstrap-5.3.3-blue.svg
-https://img.shields.io/badge/License-MIT-green.svg
-https://img.shields.io/badge/Status-Production-4caf50.svg
+# 🌐 Profile Website - Pangeran Valerensco Rivaldi Hutabarat
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
+</p>
+
+<div align="center">
+
+[![Laravel Version](https://img.shields.io/badge/Laravel-11.x-red.svg)](https://laravel.com)
+[![Bootstrap Version](https://img.shields.io/badge/Bootstrap-5.3.3-blue.svg)](https://getbootstrap.com)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
+[![Status](https://img.shields.io/badge/Status-Production-4caf50.svg)]()
 
 </div>
-📋 About This Project
-Professional profile website built with Laravel 11 and Bootstrap 5, showcasing the portfolio, experience, and skills of Pangeran Valerensco Rivaldi Hutabarat as a student, organizational activist, and web developer.
 
-🚀 Quick Start
-Prerequisites
-PHP 8.2 or newer
+## 📋 About This Project
 
-Composer 2.x
+Professional profile website built with **Laravel 11** and **Bootstrap 5**, showcasing the portfolio, experience, and skills of Pangeran Valerensco Rivaldi Hutabarat as a student, organizational activist, and web developer.
 
-Web server (Apache/Nginx)
+## 🚀 Quick Start
 
-Installation Steps
-Clone the Repository
+### Prerequisites
+- PHP 8.2 or newer
+- Composer 2.x
+- Web server (Apache/Nginx)
 
-bash
+### Installation Steps
+
+1. **Clone the Repository**
+```bash
 git clone https://github.com/pangeranvalerensco-maker/profile-web.git
 cd profile-web
-Install Dependencies
+```
 
-bash
+2. **Install Dependencies**
+```bash
 composer install
-Configure Environment
+```
 
-bash
+3. **Configure Environment**
+```bash
 cp .env.example .env
 php artisan key:generate
-Run Development Server
+```
 
-bash
+4. **Run Development Server**
+```bash
 php artisan serve
-Access the Application
-Open your browser and visit http://localhost:8000
+```
 
-🎯 Key Features
-✅ Responsive Design - Optimized for all devices
+5. **Access the Application**
+Open your browser and visit `http://localhost:8000`
 
-✅ Interactive Portfolio - Showcase of technology projects
+## 🎯 Key Features
 
-✅ Professional Timeline - Education and organizational history
+- ✅ **Responsive Design** - Optimized for all devices
+- ✅ **Interactive Portfolio** - Showcase of technology projects
+- ✅ **Professional Timeline** - Education and organizational history
+- ✅ **Contact Form** - Visitor communication system
+- ✅ **Modern UI/UX** - Smooth animations and clean layout
+- ✅ **SEO Friendly** - Optimal structure for search engines
 
-✅ Contact Form - Visitor communication system
+## 📁 Project Structure
 
-✅ Modern UI/UX - Smooth animations and clean layout
-
-✅ SEO Friendly - Optimal structure for search engines
-
-📁 Project Structure
-text
+```
 profile-web-pangeran-valerensco/
 ├── resources/
 │   ├── views/
@@ -69,138 +78,122 @@ profile-web-pangeran-valerensco/
 ├── routes/
 │   └── web.php                    # Route definitions
 └── README.md                      # This documentation
-🌟 Available Pages
-🏠 Home (/)
-Professional summary
+```
 
-Achievement statistics
+## 🌟 Available Pages
 
-Hard & soft skills
+### 🏠 **Home** (`/`)
+- Professional summary
+- Achievement statistics
+- Hard & soft skills
+- Call-to-action buttons
 
-Call-to-action buttons
+### 👤 **About** (`/about`)
+- Complete personal identity
+- Education history
+- Work experience
+- Detailed organizational experience
+- Personal values
 
-👤 About (/about)
-Complete personal identity
+### 💼 **Services** (`/services`)
+- Web Development
+- System Analysis
+- Organizational Management
+- Application Development
+- Administration & Documentation
+- Training & Consultation
 
-Education history
+### 📂 **Portfolio** (`/portfolio`)
+- MineCart Project (UMKM E-Commerce)
+- Struktura Application (Java)
+- Tunas Scout System (C Language)
+- Collaboration projects with lecturers
 
-Work experience
+### 📞 **Contact** (`/contact`)
+- Interactive contact form
+- Social media information
+- Communication principles
+- Response time
 
-Detailed organizational experience
+## 🎨 Design Features
 
-Personal values
-
-💼 Services (/services)
-Web Development
-
-System Analysis
-
-Organizational Management
-
-Application Development
-
-Administration & Documentation
-
-Training & Consultation
-
-📂 Portfolio (/portfolio)
-MineCart Project (UMKM E-Commerce)
-
-Struktura Application (Java)
-
-Tunas Scout System (C Language)
-
-Collaboration projects with lecturers
-
-📞 Contact (/contact)
-Interactive contact form
-
-Social media information
-
-Communication principles
-
-Response time
-
-🎨 Design Features
-Main Colors
-css
+### Main Colors
+```css
 --primary-color: #2c3e50;      /* Dark blue */
 --secondary-color: #3498db;    /* Bright blue */
 --accent-color: #e74c3c;       /* Accent red */
-Special Components
-Hero Section - Gradient background with overlay effect
+```
 
-Timeline - History visualization with vertical line
+### Special Components
+1. **Hero Section** - Gradient background with overlay effect
+2. **Timeline** - History visualization with vertical line
+3. **Project Cards** - Hover effects and border styling
+4. **Skill Badges** - Interactive tags for skills
+5. **Service Cards** - Icons and service descriptions
 
-Project Cards - Hover effects and border styling
+## 📱 Responsive Design
 
-Skill Badges - Interactive tags for skills
-
-Service Cards - Icons and service descriptions
-
-📱 Responsive Design
 Website optimized for:
+- **Desktop** (≥992px) - Full layout with sidebar
+- **Tablet** (768px-991px) - 2-column grid
+- **Mobile** (<768px) - Single column, hamburger menu
 
-Desktop (≥992px) - Full layout with sidebar
+## 🔗 Important Links
 
-Tablet (768px-991px) - 2-column grid
+| Platform | URL |
+|----------|-----|
+| GitHub | [github.com/pangeranvalerensco-maker](http://github.com/pangeranvalerensco-maker) |
+| Instagram | [@varelrivaldi_hutabarat](https://www.instagram.com/varelrivaldi_hutabarat/) |
+| Facebook | [Varel Rival](https://www.facebook.com/varel.rival.9) |
+| Project Demo | [MineCart Demo](https://projekan-html-pangeranvalerensco.vercel.app/) |
 
-Mobile (<768px) - Single column, hamburger menu
+## 📊 Profile Data
 
-🔗 Important Links
-Platform	URL
-GitHub	github.com/pangeranvalerensco-maker
-Instagram	@varelrivaldi_hutabarat
-Facebook	Varel Rival
-Project Demo	MineCart Demo
-📊 Profile Data
-Identity
-yaml
+### Identity
+```yaml
 Name: Pangeran Valerensco Rivaldi Hutabarat
 Origin: Sibolga, North Sumatra
 Status: Student | Organizational Activist | Web Developer
 Education: S1 Informatics Engineering - UNAS PASIM Bandung
-Technical Skills
-HTML5, CSS3, JavaScript
+```
 
-C Language & Java Fundamentals
+### Technical Skills
+- HTML5, CSS3, JavaScript
+- C Language & Java Fundamentals
+- Git & GitHub
+- System Analysis & Flowchart
+- Organizational Management
 
-Git & GitHub
+## 🤝 Contribution
 
-System Analysis & Flowchart
-
-Organizational Management
-
-🤝 Contribution
 If you want to contribute to this website development:
 
-Fork the repository
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/featurename`)
+3. Commit changes (`git commit -m 'Added feature X'`)
+4. Push to branch (`git push origin feature/featurename`)
+5. Create a Pull Request
 
-Create a feature branch (git checkout -b feature/featurename)
+## 📄 License
 
-Commit changes (git commit -m 'Added feature X')
+This project is licensed under the [MIT License](LICENSE.md).
 
-Push to branch (git push origin feature/featurename)
+## 📞 Contact Developer
 
-Create a Pull Request
+**Pangeran Valerensco Rivaldi Hutabarat**
+- Email: [Contact via Form](contact)
+- GitHub: [@pangeranvalerensco-maker](http://github.com/pangeranvalerensco-maker)
+- Location: Sibolga, North Sumatra, Indonesia
 
-📄 License
-This project is licensed under the MIT License.
-
-📞 Contact Developer
-Pangeran Valerensco Rivaldi Hutabarat
-
-Email: Contact via Form
-
-GitHub: @pangeranvalerensco-maker
-
-Location: Sibolga, North Sumatra, Indonesia
+---
 
 <div align="center">
-⭐️ Support This Project
+  
+### ⭐️ Support This Project
+
 If this website is useful, give it a star on GitHub!
 
-"Integration of Technology & Organizational Management for Better Solutions"
+**"Integration of Technology & Organizational Management for Better Solutions"**
 
 © 2025 Pangeran Valerensco Rivaldi Hutabarat. All rights reserved.
 
